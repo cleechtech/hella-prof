@@ -1,0 +1,12 @@
+.tools {
+	position: absolute;
+	top: 1px;
+	right: -7px;
+	padding-top: 30px;
+}
+
+@media (max-width: 985px) {
+  .tools {
+    display: none;
+  }
+}
