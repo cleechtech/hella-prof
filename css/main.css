@@ -1,8 +1,62 @@
+#nav {
+	position: fixed;
+	top: 20px;
+}
+
+ul.nav {
+	width: 100%;
+	padding: 0 0 10px 10px;
+}
+
+#nav li {
+	margin-bottom: 2px;
+}
+
+#nav a {
+	display: block;
+	font-size: 14px;
+	padding: 5px 10px;
+}
+
+#nav a:hover {
+/*	background: #dedede;
+*/}
+
+#nav .current a {
+	background: #428bca;
+	color: #ededed;
+}
+
+/* Print/Download resume */
 .tools {
 	position: absolute;
 	top: 1px;
 	right: -7px;
 	padding-top: 30px;
+}
+
+/* timeline blocks */
+.timeline-item-trigger span i:before {background-color: #0088CC; display: inline-block; border: 6px solid #0088CC; border-radius: 50%; font-size: 12px;}
+.timeline {background: url(http://michael-tresseras.com/images/timeline.gif) 109px 0 repeat-y;}
+.dark .timeline {background-image: url(images/timelinedark.gif);}
+.timeline-item {position: relative; margin-bottom: 30px; overflow: hidden;}
+.timeline-item-date {float: left; width: 85px; margin-top: 31px;}
+.timeline-item-trigger {float: left; width: 50px; text-align: center; padding-top: 10px;}
+.timeline-item-content {float: left; width: 658px; margin-left: 15px; padding: 15px 30px; border: 1px solid #ccc; position: relative; border-radius: 5px; background-color: #f5f5f5;}
+.timeline-item-trigger i {cursor: pointer;}
+.timeline-item-trigger span i:before {width: 12px; height: 12px;}
+.timeline-item-trigger span {display: block; margin-left: 13px; height: 15px; overflow: hidden; margin-top: 21px;}
+.timeline-item-title {cursor: pointer;}
+.timeline-item-content h3{font-size: 25px; line-height: 30px;}
+.timeline-arrow {display: block; position: relative;}
+.timeline-arrow i {display: block; background: #f9f9f9; position: absolute; height: 10px; width: 10px; top: 37px; left: -6px; border-left: 1px solid #ccc; border-top: 1px solid #ccc; left: 145px; z-index: 10; transform: rotate(-45deg); -moz-transform: rotate(-45deg); -o-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -ms-transform: rotate(-45deg); filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=-45); }
+.timeline-item h4 {margin-bottom: 10px;}
+span.glyphicon {
+    font-size: 1.6em;
+    height: 25px;
+    line-height: 1.1;
+    margin-left: 2px;
+    background-color: #ffffff;
 }
 
 @media (max-width: 985px) {

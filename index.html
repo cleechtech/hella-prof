@@ -24,56 +24,265 @@
 
 <body>	
 	<div class='container'>
-		<nav class='pull-right'>
+		<nav class='pull-right col-md-2'>
 			<ul class="nav" id='nav'>
-				<li><a href="#about-me">About me</a></li>
-				<li><a href="#employment">Employment</a></li>
+				<li class='current'><a href="#about-me">About me</a></li>
+				<li><a href="#experience">Experience</a></li>
 				<li><a href="#education">Education</a></li>
 				<li><a href="#skills">Skills</a></li>
 		  		<li><a href="#portfolio">Portfolio</a></li>
-				<li><a href="#hobbies">Hobbies</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
 
-		<div class="row">
-			<div class="col-md-9">
-		    	<div class='tools'>
-					<a href="javascript:if(window.print)window.print()" title="Print This Page"><i class="fa fa-2x fa-print"></i></a>
-					
-					<a target="_blank" href="files/Resume-ConnorLeech.pdf" title="Download My Resume"><i class="fa fa-2x fa-download"></i></a>
-				</div>
+		<!-- MAIN CONTENT -->
+		<div class="col-md-10">
+	    	<div class='tools'>
+				<a href="javascript:if(window.print)window.print()" title="Print This Page"><i class="fa fa-2x fa-print"></i></a>
+				
+				<a target="_blank" href="files/Resume-ConnorLeech.pdf" title="Download My Resume"><i class="fa fa-2x fa-download"></i></a>
+			</div>
 
-		    	<div class="section first-section" id="about-me">
-		            <div class="row">
-		            	<div class='col-md-3'>
-		            		<img class="img-thumbnail" src="./images/profile-thumbnail.jpg" alt="Thumbnail of my face" style='height:180px'>
-		            	</div>
-		            	<div class="col-md-7">
-					    	<h1>Connor Leech</h1>
-					   		<h2>Front End Engineer in the Bay Area</h2>
-					   	</div>
-					</div>
-					
-					<div class="well">
-						<p class="lead">I'm mad chill, likes to write code, and wants to work with the smartest, nicest people in the game. 2+ years experience. I am proficient in OO Javascript, Angular.js, Node.js, HTML5, CSS3, jQuery, D3.js, Ruby On Rails and currently learning Backbone.js and React.js.</p>
-					</div>
-					
-					<div class='row'>
-						<h5>Follow me</h5>
-						<a target="_blank" title="Github" href="http://www.github.com/jasonshark">
-							<i class="fa fa-3x fa-github"></i>
-						</a>
-						<a target="_blank" title="Twitter" href="https://twitter.com/cleechtech">
-							<i class="fa fa-3x fa-twitter"></i>
-						</a>
-						<a target="_blank" title="LinkedIn" href="http://www.linkedin.com/in/connorleech">
-							<i class="fa fa-3x fa-linkedin"></i>
-						</a>
-					</div>
+	    	<div id="about-me">
+	            <div class="row">
+	            	<div class='col-md-3'>
+	            		<img class="img-thumbnail" src="./images/profile-thumbnail.jpg" alt="Thumbnail of my face" style='height:180px'>
+	            	</div>
+	            	<div class="col-md-7">
+				    	<h1>Connor Leech</h1>
+				   		<h2>Front End Engineer in the Bay Area</h2>
+				   	</div>
+				</div>
+				
+				<div class="well">
+					<p class="lead">I'm mad chill, likes to write code, and wants to work with the smartest, nicest people in the game. 2+ years experience. I am proficient in OO Javascript, Angular.js, Node.js, HTML5, CSS3, jQuery, D3.js, Ruby On Rails and currently learning Backbone.js and React.js.</p>
+				</div>
+				
+				<div class='row'>
+					<a target="_blank" title="Github" href="http://www.github.com/jasonshark">
+						<i class="fa fa-3x fa-github"></i>
+					</a>
+					<a target="_blank" title="Twitter" href="https://twitter.com/cleechtech">
+						<i class="fa fa-3x fa-twitter"></i>
+					</a>
+					<a target="_blank" title="LinkedIn" href="http://www.linkedin.com/in/connorleech">
+						<i class="fa fa-3x fa-linkedin"></i>
+					</a>
 				</div>
 			</div>
+
+			<!-- Experience -->
+			<div class="section" id="experience">
+			  	<h2 class="section-title"><i class="fa fa-briefcase"></i> Experience<a href="#phone-navbar" class="top visible-phone"><span class="up_arrow"><i></i></span></a></h2>
+			  	
+			  	<div class="timeline">
+			  		
+		  			 <div class="timeline-item">
+		  			 	<div class="timeline-item-date">4/14 - now</div>
+		  			 	<div class="timeline-item-trigger"><span class="glyphicon glyphicon-minus-sign" data-toggle="collapse" data-target="#position1"><i></i></span></div>
+		  			 	<div class="timeline-arrow"><i></i></div>
+		  			 	<div class="timeline-item-content">
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position1">Front End Engineer @ Piqora</h3>
+							<div class="collapse in" id="position1">
+								<p><small class="muted">since April 2014</small></p>
+								<h4 class="media-heading">Piqora is the leader in marketing &amp; analytics for visual, interest-based networks like Pinterest, Tumblr, &amp; Instagram</h4>
+								<p>Tech stack: Grunt.js, Require.js, Casper.js, SASS, Git, Python, Django.</p>
+								<p><a href="//piqora.com" target="_blank" title="" class="noprint">→ View website</a></p>
+							</div>
+						</div>
+					 </div><!--/timeline-item--> 
+					 <span class="clear"></span>
+			  		
+		  			 <div class="timeline-item">
+		  			 	<div class="timeline-item-date">4/13 - 9/13</div>
+		  			 	<div class="timeline-item-trigger"><span class="glyphicon glyphicon-plus-sign" data-toggle="collapse" data-target="#position2"><i></i></span></div>
+		  			 	<div class="timeline-arrow"><i></i></div>
+		  			 	<div class="timeline-item-content">
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position2">Semantic Annotation Developer Intern @ Sword-Group</h3>
+							<div class="collapse" id="position2">
+								<p><small class="muted">from April to September 2013</small></p>
+								<h4 class="media-heading">Sword is a specialised IT services company with a current headcount of 1 000+ staff</h4>
+								<p>Successfully planned, developed, tested, documented, deployed and maintained semantic components within a pioneering and booming market.</p>	
+								<p><a href="//sword-group.com" target="_blank" title="" class="noprint">→ View website</a></p>
+							</div>
+						</div>
+					 </div><!--/timeline-item--> 
+					 <span class="clear"></span>
+					 
+					 <div class="timeline-item">
+		  			 	<div class="timeline-item-date">9/12 - 12/12</div>
+		  			 	<div class="timeline-item-trigger"><span class="glyphicon glyphicon-plus-sign" data-toggle="collapse" data-target="#position3"><i></i></span></div>
+		  			 	<div class="timeline-arrow"><i></i></div>
+		  			 	<div class="timeline-item-content">
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position3">Web Developer Freelance @ Long Tall Sally</h3>
+							<div class="collapse" id="position3">
+								<p><small class="muted">from September 2012 to December 2012</small></p>
+								<h4 class="media-heading">After working for Long Tall Sally as an Intern, I built my company and kept working as a freelance</h4>
+								<p> Developed highly featured and cost-effective user-review management application. Dramatically improved efficiency, optimization, safety and integrity of data. Completed the previous application and integrated highly designed web form within 10 days.</p>
+							</div>
+						</div>
+					 </div><!--/timeline-item--> 
+					 <span class="clear"></span>
+					 
+					 <div class="timeline-item">
+		  			 	<div class="timeline-item-date">4/12 - 8/12</div>
+		  			 	<div class="timeline-item-trigger"><span class="glyphicon glyphicon-plus-sign" data-toggle="collapse" data-target="#position4"><i></i></span></div>
+		  			 	<div class="timeline-arrow"><i></i></div>
+		  			 	<div class="timeline-item-content">
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position4">Web Developer Intern @ Long Tall Sally</h3>
+							<div class="collapse" id="position4">
+								<p><small class="muted">from April to August 2012</small></p>
+								<h4 class="media-heading">Long Tall Sally is the global leader in specialized retail for ladies 5'8" (173cm) and above</h4>
+								<p>Developed and managed websites and web applications from planning to completion. Delivered an automated email reporting tool. Developed from scratch a fully functional website to enable collaboration between the public relations and marketing departments. Assisted the head of eCommerce in day-to-day coding requirements. Provided technical support to the 5 merchandising websites.</p>
+								<p><a href="//longtallsally.com" target="_blank" title="" class="noprint">→ View website</a></p>
+							</div>
+						</div>
+					 </div><!--/timeline-item--> 
+					 <span class="clear"></span>
+					 <span class="clear"></span>
+		  			 
+			  	</div><!--/timeline --> 
+			</div>
+			<!-- /Experience -->
+
+			<!-- Education -->
+			<div class="section" id="education">
+			  	<h2 class="section-title"><i class="fa fa-book"></i> Education<a href="#phone-navbar" class="top visible-phone"><span class="glyphicons white up_arrow"><i></i></span></a></h2>
+			  	
+			  	<div class="timeline">
+			  		
+		  			 <div class="timeline-item">
+		  			 	<div class="timeline-item-date">2011 - 2012</div>
+		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_minus" data-toggle="collapse" data-target="#education1"><i></i></span></div>
+		  			 	<div class="timeline-arrow"><i></i></div>
+		  			 	<div class="timeline-item-content">
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#education1">Master's Degree</h3>
+							<div class="collapse in" id="education1">
+								<p><small class="muted">from 2011 to 2013</small></p>
+								<h4 class="media-heading">Université Jean Moulin, Lyon, France</h4>
+								<p>Master of Information Systems Management.</p>
+								<p><a href="//www.univ-lyon3.fr/en/" target="_blank" title="" class="noprint">→ View website</a></p>	
+							</div>
+						</div>
+					 </div><!--/timeline-item--> 
+					 <span class="clear"></span>
+					 
+					  <div class="timeline-item">
+		  			 	<div class="timeline-item-date">2011 - 2013</div>
+		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#education2"><i></i></span></div>
+		  			 	<div class="timeline-arrow"><i></i></div>
+		  			 	<div class="timeline-item-content">
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#education2">Bachelor's Degree</h3>
+							<div class="collapse" id="education2">
+								<p><small class="muted">from 2008 to 2011</small></p>
+								<h4 class="media-heading">Université Jean Moulin, Lyon, France</h4>
+								<p>Bachelor of Business Administration (BBA), Economics &amp; Law.</p>	
+								<p><a href="//www.univ-lyon3.fr/en/" target="_blank" title="" class="noprint">→ View website</a></p>	
+							</div>
+						</div>
+					 </div><!--/timeline-item--> 
+					 <span class="clear"></span>
+			  	</div><!--/timeline --> 
+		  	</div>
+		  	<!-- /Education -->
+
+		  	<!-- Skills -->
+		  	<div class="section skills" id="skills">
+		  		<h2 class="section-title"><i class="fa fa-cogs"></i> Skills<a href="#phone-navbar" class="top visible-phone"><span class="glyphicons white up_arrow"><i></i></span></a></h2>
+			  	<h3>Development</h3>
+			  	
+			  	<div class="row">
+			  		<div class="span3">HTML5 - CSS3</div>
+			  		<div class="span3">
+			  			<span class="printonly">Very good</span>
+			  			<div class="progress">
+	   						<div class="bar" style="width: 70%;"></div>
+	    				</div>
+			  		</div>
+			  	</div>
+			  	
+			  	<div class="row">
+			  		<div class="span3">Modular JavaScript</div>
+			  		<div class="span3">
+			  			<span class="printonly">Very Good</span>
+			  			<div class="progress">
+	   						<div class="bar" style="width: 80%;"></div>
+	    				</div>
+			  		</div>
+			  	</div>
+			  	
+			  	<div class="row">
+			  		<div class="span3">Angular.js</div>
+			  		<div class="span3">
+			  			<span class="printonly">Learning</span>
+			  			<div class="progress">
+	   						<div class="bar" style="width: 50%;"></div>
+	    				</div>
+			  		</div>
+			  	</div>
+			  	
+			  	<div class="row">
+			  		<div class="span3">D3.js</div>
+			  		<div class="span3">
+			  			<span class="printonly">Good</span>
+			  			<div class="progress">
+	   						<div class="bar" style="width: 70%;"></div>
+	    				</div>
+			  		</div>
+			  	</div>
+			  	
+			  	<div class="row">
+			  		<div class="span3">jQuery</div>
+			  		<div class="span3">
+			  			<span class="printonly">Very good</span>
+			  			<div class="progress">
+	   						<div class="bar" style="width: 80%;"></div>
+	    				</div>
+			  		</div>
+			  	</div>
+			  	
+			  	<div class="row">
+			  		<div class="span3">Python</div>
+			  		<div class="span3">
+			  			<span class="printonly">Learning</span>
+			  			<div class="progress">
+	   						<div class="bar" style="width: 50%;"></div>
+	    				</div>
+			  		</div>
+			  	</div>
+			  				  	
+			  	<h3>Other Skills</h3>
+			  	
+			  	<div class="row">
+			  		<div class="span9">
+			  			<span class="label">Require.js</span>
+			  			<span class="label">Grunt.js</span>
+			  			<span class="label">Wordpress</span>
+			  			<span class="label">Cross Browser Development</span>
+			  			<span class="label">MVC Pattern</span>
+			  			<span class="label">Web Design</span>
+			  			<span class="label">Unix</span>
+			  			<span class="label">Web Services</span>
+			  			<span class="label">Django</span>
+			  		</div>
+			  	</div>
+			  	
+		  	</div>
+		  	<!-- /Skills -->
+
+		  	<!-- Portfolio -->
+			<div id="portfolio" style='height:800px'>
+				<h3>Portfolio</h3>
+			</div>
+			<!-- /Portfolio -->
+
+			<!-- Contact -->
+			<div id="contact" style='height:800px'>
+				<h3>Contact</h3>
+			</div>
+			<!-- /Contact -->
 		</div>
+		<!-- /MAIN CONTENT -->
 	</div>
 
 	<script src='http://code.jquery.com/jquery-2.1.0.min.js'></script>	
