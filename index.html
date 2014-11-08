@@ -3,241 +3,34 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Connor Leech - Portfolio</title>
+	<title></title>
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/png" href="images/favicon.ico">
 	
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-	
-	<!-- Fonts and display -->
-	<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans|Oswald|Droid+Sans|Yanone+Kaffeesatz|Droid+Serif|Ubuntu|Lobster|Francois+One|Arvo|Changa+One|Rokkitt|Nunito|Bitter|Merriweather|Raleway|Pacifico|Josefin+Sans|Questrial|Cantarell|Norican|Vollkorn|Quicksand|Limelight|Cantata+One|Bree+Serif|Oleo+Script|Playfair+Display|Quattrocento+Sans|Berkshire+Swash|Passion+One|Cuprum' rel='stylesheet' type='text/css'> -->
+
+	<!-- Leaflet -->
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 
 	<link rel='stylesheet' href='css/main.css'>
-
-
 </head>
 
 <body>	
 	<div class='container'>
-		<nav class='pull-right col-md-2'>
-			<ul class="nav" id='nav'>
-				<li class='current'><a href="#about-me">About me</a></li>
-				<!-- <li><a href="#experience">Experience</a></li> -->
-				<li><a href="#education">Education</a></li>
-				<li><a href="#skills">Skills</a></li>
- 		  		<!-- <li><a href="#portfolio">Portfolio</a></li>  -->
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-
-		<!-- MAIN CONTENT -->
 		<div class="col-md-10">
-	    	<div class='tools'>
-				<a href="javascript:if(window.print)window.print()" title="Print This Page"><i class="fa fa-2x fa-print"></i></a>
-				
-				<a target="_blank" href="files/Resume-ConnorLeech.pdf" title="Download My Resume"><i class="fa fa-2x fa-download"></i></a>
-			</div>
-
-	    	<div id="about-me">
-	            <div class="row">
-	            	<div class='col-md-3'>
-	            		<img class="img-thumbnail" src="./images/profile-thumbnail.jpg" alt="Thumbnail of my face" style='height:180px'>
-	            	</div>
-	            	<div class="col-md-7">
-				    	<h1>Connor Leech</h1>
-				   		<h2>Front End Engineer in the Bay Area</h2>
-				   	</div>
-				</div>
-				
-				<div class="well">
-					<p class="lead">I'm mad chill, likes to write code, and wants to work with the smartest, nicest people in the game. 2+ years experience. I am proficient in OO Javascript, Angular.js, Node.js, HTML5, CSS3, jQuery, D3.js, Ruby On Rails and currently learning Backbone.js and React.js.</p>
-				</div>
-				
-				<div class='row'>
-					<a target="_blank" title="Github" href="http://www.github.com/jasonshark">
-						<i class="fa fa-3x fa-github"></i>
-					</a>
-					<a target="_blank" title="Twitter" href="https://twitter.com/cleechtech">
-						<i class="fa fa-3x fa-twitter"></i>
-					</a>
-					<a target="_blank" title="LinkedIn" href="http://www.linkedin.com/in/connorleech">
-						<i class="fa fa-3x fa-linkedin"></i>
-					</a>
-				</div>
-			</div>
-
-			<!-- Education -->
-			<div class="section" id="education">
-			  	<h2 class="section-title"><i class="fa fa-book"></i> Education<a href="#phone-navbar" class="top visible-phone"><span class="glyphicons white up_arrow"><i></i></span></a></h2>
-			  	
-			  	<div class="timeline">
-					  <div class="timeline-item">
-		  			 	<div class="timeline-item-date">2011 - 2013</div>
-		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#education2"><i></i></span></div>
-		  			 	<div class="timeline-arrow"><i></i></div>
-		  			 	<div class="timeline-item-content">
-							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#education2">Bachelor's Degree</h3>
-							<div class="collapse">
-								<p><small class="muted">from 2007 to 2011</small></p>
-								<h4 class="media-heading">University of California, Santa Barbara</h4>
-								<p>Bachelor of Arts (BA) Political Science</p>	
-							</div>
-						</div>
-					 </div>
-					 <span class="clear"></span>
-			  	</div>
-		  	</div>
-		  	<!-- /Education -->
-
-		  	<!-- Skills -->
-		  	<div class="section skills" id="skills">
-		  		<div class='row'>
-			  		<h2 class="col-md-3 section-title"><i class="fa fa-cogs"></i> Skills</h2>
-			  		<p class='col-md-6' style='margin-top:30px; margin-left:-10px;'>Highly scientific...</p>
-		  		</div>
-			  	
-			  	<div class="row">
-			  		<h4 class="col-md-3">JavaScript</h4>
-			  		<div>
-			  			<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-						  </div>
-						</div>
-			  		</div>
-			  	</div>
-			  	
-			  	<div class="row">
-			  		<h4 class="col-md-3">Angular.js</h4>
-			  		<div>
-			  			<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 55%;">
-						  </div>
-						</div>
-			  		</div>
-			  	</div>
-			  	
-			  	<div class="row">
-			  		<h4 class="col-md-3">Node.js</h4>
-			  		<div>
-			  			<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
-						  </div>
-						</div>
-			  		</div>
-			  	</div>
-			  	
-			  	<div class="row">
-			  		<h4 class="col-md-3">jQuery</h4>
-			  		<div>
-			  			<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 88%;">
-						  </div>
-						</div>
-			  		</div>
-			  	</div>
-			  	
-			  	<div class="row">
-			  		<h4 class="col-md-3">Bootstrap</h4>
-			  		<div>
-			  			<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-						  </div>
-						</div>
-			  		</div>
-			  	</div>
-
-			  	<div class="row">
-			  		<h4 class="col-md-3">D3.js</h4>
-			  		<div>
-			  			<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 45%;">
-						  </div>
-						</div>
-			  		</div>
-			  	</div>
-
-			  	<div class="row">
-			  		<h4 class="col-md-3">Ruby On Rails</h4>
-			  		<div>
-			  			<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
-						  </div>
-						</div>
-			  		</div>
-			  	</div>
-
-			  	<div class="row">
-			  		<h4 class="col-md-3">React.js</h4>
-			  		<div>
-			  			<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
-						  </div>
-						</div>
-			  		</div>
-			  	</div>
-
-			  	<div class="row">
-			  		<h4 class="col-md-3">Backbone.js</h4>
-			  		<div>
-			  			<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">
-						  </div>
-						</div>
-			  		</div>
-			  	</div>
-			  	
-		  	</div>
-		  	<!-- /Skills -->
-
-		  	<!-- Portfolio -->
-			<!-- <div id="portfolio" style='height:800px'>
-				<h3>Portfolio</h3>
-			</div> -->
-			<!-- /Portfolio -->
-
-			<!-- Contact -->
-			<div id="contact" style='height:800px'>
-				<h3>Contact</h3>
-
-				<form action="http://getsimpleform.com/messages?form_api_token=5a5c448c4440d0aedf922051122bb92c" method='post'>
-					<div class='form-group'>
-						<input type='text' name='name' class='form-control' placeholder='Your Name'>
-					</div>
-					<div class='form-group'>
-						<input type='email' name='email' class='form-control' placeholder='Your Email'>
-					</div>
-					<div class='form-group'>
-						<textarea class="form-control" rows="5" name='message' placeholder='Type away!'></textarea>
-					</div>
-					<div class='form-group'>
-						<input type='submit' class='btn btn-lg btn-success pull-right' value='Send'>
-					</div>
-				</form>
-			</div>
-			<!-- /Contact -->
+	    	<div id='map-container'></div>
 		</div>
-		<!-- /MAIN CONTENT -->
 	</div>
 
 	<script src='http://code.jquery.com/jquery-2.1.0.min.js'></script>	
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>	
-	<script src='js/lib/jquery.nav.js'></script>
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>	
+	<script src='js/us-states.js'></script>
+	<script src='js/oak-zips.js'></script>
 	<script src='js/main.js'></script>
-
-	<!-- Google Analytics -->
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-56080319-1', 'auto');
-	  ga('send', 'pageview');
-	</script>
 </body>
 </html>
